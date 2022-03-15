@@ -13,20 +13,20 @@
 
 ---
 **Demo:**
- * https://gamak.herokuapp.com
+* [gamak.herokuapp.com](https://gamak.herokuapp.com)
+
 ---
 **About myself:**
 
 Possesses strong HTML\CSS\JavaScript\ReactJS skills with 1 year of production software development experience of products with various technologies and popular libraries. Proven valuable team member always strive to come up with mutually beneficial solutions
 
 ---
-**Skills and Proficiency:**
+**Skills:**
 
 * HTML
 * CSS 
 * JavaScript 
 * React JS
-
 
 ---
 **Languages:**
