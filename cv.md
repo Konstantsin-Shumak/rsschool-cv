@@ -7,8 +7,6 @@
 
 **Email:** konstantsin.shumak@gmail.com
 
-**GitHub:** @Konstantsin-Shumak
-
 **Telegram:** @konstantsinshumak
 
 **Discord:** Shumak_K#1013
