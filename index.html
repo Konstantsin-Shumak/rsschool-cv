@@ -1,27 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RS School CV</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RS School CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="#contact">Contact</a>
+          </li>
+          <li class="menu__item">
+            <a href="#demo">Demo</a>
+          </li>
+          <li class="menu__item">
+            <a href="#about">About</a>
+          </li>
+          <li class="menu__item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="menu__item">
+            <a href="#languages">Languages</a>
+          </li>
+          <li class="menu__item">
+            <a href="#code">Code</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <div class="info-block">
+      <div class="info">
+        <h1>Konstantsin Shumak</h1>
+        <h2>Frontend Developer</h2>
+      </div>
+      <div class="image">
+        <img src="./image/avatar.jpg" alt="photo: Konstantsin Shumak">
+      </div>
+    </div>
+    <hr>
     <main>
-        <header>
-          <h1 class="emotion">:(</h1>
-        </header>
-        <a class="description">We are working on a new website to improve the usability and visual identity of our team.<br>Once we finish our new website, it will be available for you.<p><span id="progress">0</span>% complete</p></a>
-        <table>
-          <tr>
-            <td><img src="https://i.pinimg.com/originals/aa/e6/93/aae6935f22e5a2f8229f7105252e4975.jpg" alt="QR CODE"></td>
-            <td style="position: absolute; margin-top: -23px;">
-              <p style="margin-left: 8px"><small>To try out our new website and send your suggestions about it, visit<br><a style="text-decoration:none; color: #FFF" href="https://beta.amanoteam.com">https://beta.amanoteam.com</a></small></p>
-              <p style="margin-left: 8px"><small>If you'd like to know more, you can join us on our Telegram channel:<span><a style="text-decoration:none; color: #FFF" href="https://t.me/AmanoTeam">&nbsp;@AmanoTeam</a></span></small></p>
-            </td>
-          </tr>
-        </table>
-      </main>    
+      <!--Contact Information-->
+      <h2 id="contact">Contact information:</h2>
+      <p><b>Phone: </b><span itemprop="telephone">+375 29 142 77 10</span></p>
+      <p><b>Email: </b><span itemprop="email">konstantsin.shumak@gmail.com</span></p>
+      <p><b>Telegram: </b><span itemprop="telegram">@konstantsinshumak</span></p>
+      <p><b>Discord: </b><span itemprop="discord">Shumak_K#1013</span></p>
+      <hr>
+
+      <!--Demo-->
+      <h2 id="demo">Demo:</h2>
+      <ul>
+        <li><a href="https://gamak.herokuapp.com">gamak.herokuapp.com</a></li>
+      </ul>
+      <hr>
+
+      <!--About myself-->
+      <h2 id="about">About myself:</h2>
+      <p>Possesses strong HTML\CSS\JavaScript\ReactJS skills with 1 year of production software development experience
+        of products with various technologies and popular libraries. Proven valuable team member always strive to come
+        up with mutually beneficial solutions</p>
+      <hr>
+
+      <!--Skills-->
+      <h2 id="skills">Skills:</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS / SCSS</li>
+        <li>JavaScript</li>
+        <li>React JS</li>
+      </ul>
+      <hr>
+
+      <!--Languages-->
+      <h2 id="languages">Languages:</h2>
+      <ul>
+        <li>Russian (Native speaker)</li>
+        <li>English (A2)</li>
+      </ul>
+      <hr>
+
+      <!--Code-->
+      <h2 id="code">Code example: </h2>
+      <div class="code-block">
+        <pre>
+        <code>
+      <span class ="important">function</span> race(v1, v2, g) {
+        <span class ="important">if</span> (v1 >= v2) <span class="important">return</span> null;
+        <span class ="important">const</span> approachSpeed = v2 - v1;
+        <span class ="important">const</span> times = (g / approachSpeed);
+        <span class ="important">return</span> v2 > v1 ? [<span class ="important">Math</span>.trunc(times), <span class ="important">Math</span>.trunc((times * 60) % 60), Math.trunc((times * 3600) % 60)] : null;
+      }
+        </code>
+      </pre>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <div class="gitHub-link">
+      <a href="https://github.com/Konstantsin-Shumak">GitHub</a>
+    </div>
+    <div class="year">
+      <h2>2022</h2>
+    </div>
+    <div class="RSS-link">
+      <a href="https://rs.school/js/">
+        <img src="./image/rs_school_js.svg" alt="logo: RSS">
+      </a>
+    </div>
+  </footer>
 </body>
+
 </html>
